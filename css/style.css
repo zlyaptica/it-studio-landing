@@ -1123,15 +1123,22 @@ body {
   }
 
   .subsribe__input {
-    padding-right: 0;
-    padding-left: 5px;
+    padding-right: 35px;
+    padding-left: 15px;
     width: 100px;
-  }
+  }  
 }
 
 /* Iphone 5 */
 @media (max-width: 320px) {
-
+  
+  .subsribe__input-block {
+    margin: 0;
+  }
+  .subsribe__input {
+    padding-right: 5px;
+    padding-left: 1px;
+  }  
 }
 
 /* adaptive finish */
